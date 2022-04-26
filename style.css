@@ -1,0 +1,165 @@
+/*text-align,center,left,justify,background,color,padding,border,radius,box-shadow,linear,gradient,shadow,margin-top,bottom,left,right,display,flex,grid,start,end,center,justify,content,align,padding,margin,none,block,inline-block,indian-red,green,red,pink,deeppink,hotpink,cyan,coral,blue,orange,azure,white,whitesmoke,10px,5px,7px,2rem,1rem,1.3rem,1.5rem,rem,text,div,*/ 
+
+
+.anchor{
+   display:block;
+   height:63px; /* this is the height of your header */
+   margin-top:-63px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+   /* display:none; */
+}
+
+
+html{
+   scroll-behavior:smooth;
+}
+
+
+
+.section1{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background:#488CE4;
+}
+
+.main-div{
+   
+}
+
+.close{
+   color:red;
+}
+
+.menu{
+   transition:0.5s;
+   /* display:none; */
+   /* visibility:hidden; */
+   opacity:0;
+   background:white;
+   padding:10px;
+   position:fixed;
+   width:100%;
+   top:80px;
+   z-index:9999;
+   box-shadow:0px 4px 2px -2px gray;
+}
+
+a{
+   text-decoration:none;
+   color:#222;
+   display:block;
+   text-align:right;
+   border-top:0.5px solid gray;
+   height:40px;
+   padding-top:10px;
+}
+
+.skill{
+   display:flex;
+   flex-wrap:wrap;
+   
+}
+
+.skill button{
+   margin:5px;
+}
+
+.contact{
+   background:#488CE4;
+   padding:60px 30px;
+   text-align:center;
+   color:white;
+}
+
+.part1{
+   margin-top:;
+}
+
+.part1 h1{
+   font-size:;
+   font-weight:boldzs;
+}
+.part1 p{
+   color:whitesmoke;
+}
+
+.form{
+   
+   background:white;
+   border-radius:4px;
+   padding:30px 20px;
+   text-align:center;
+   margin-top:70px;
+}
+
+.form form{
+   
+}
+
+label{
+ color:gray;
+ display:block;
+ text-align:left;  
+}
+
+input{
+   background:whitesmoke;
+   width:100%;
+   color:;
+   height:60px;
+   padding:15px;
+   border-radius:6px;
+   border:none;
+   outline:0;
+}
+
+.msg{
+   background:whitesmoke;
+   width:100%;
+   color:;
+   height:150px;
+   padding:15px;
+   border-radius:6px;
+   border:none;
+   outline:0;
+   resize:none;
+}
+
+::placeholder{
+   color:gray;
+   font-weight:bold;
+   font-size:0.8rem;
+}
+
+.submit{
+   margin-top:15px;
+   background:#1D65E0;
+   color:white;
+   padding:10px;
+   font-weight:bold;
+   
+}
+
+.footer{
+   background:black;
+   color:white;
+   padding-left:10px;
+}
+
+.footer i{
+   font-size:1.4rem;
+   margin-right:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
